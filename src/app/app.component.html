@@ -1,0 +1,40 @@
+<div class="bg-dark" >
+     <img src="../assets/img/fitness.png">  
+</div>
+<div class="navbar navbar-expand-md navbar-dark bg-dark position-relative">
+ 
+  <button (click)="landingpage()">Home</button><br>
+  <button (click)="placeAppointment()">Place Appointment</button><br>
+  <button (click)="viewAppointment()">View Appointment</button><br>
+  <button (click)="contactUspage()">Contact Us</button>
+
+</div>
+
+
+
+
+
+<div class="sidebar bg-dark">
+  <button (click)="landingpage()">Home</button><br>
+  <button (click)="placeAppointment()">Place Appointment</button><br>
+  <button (click)="viewAppointment()">View Appointment</button><br>
+  <button (click)="contactUspage()">Contact Us</button>
+</div>
+
+
+<!--div class="sidebar">
+  <button (click)="landingpage()">Home</button><br>
+  <button (click)="placeAppointment()">Place Appointment</button><br>
+  <button (click)="viewAppointment()">View Appointment</button><br>
+  <button (click)="contactUspage()">Contact Us</button>
+
+</div-->
+
+
+
+
+
+
+<div class="content">
+<router-outlet></router-outlet>
+</div>
